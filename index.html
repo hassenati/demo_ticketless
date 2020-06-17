@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="ticketless_firstDemo" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenue - Ticketless Demo</title>
+    <link rel="stylesheet" href="/CSS/styleConnect.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <section class=" storePanel">
+        <img src="/images/connect/storePanel.png" alt="">
+    </section>
+
+    <section class="header">
+        <div class="header_title">
+            <h1>Bienvenue</h1>
+            <h3>Choisissez votre point de vente s'il vous plait</h3>
+        </div>
+    </section>
+
+    <section class="center">
+        <div class="navBar">
+            <div class="nav_brand nav_child">
+                <h1>1</h1>
+                <select class="btn_drop navBrand_btn" onchange="random(this.value)" name="" id="avi">
+                    <option selected="true" disabled="disabled">Enseigne</option>
+                    <option value="Parfums Christian Dior">Parfums Christian Dior</option>
+                    <option value="Acqua Di Parma">Acqua Di Parma</option>
+                    <option value="Louis Vuitton">Louis Vuitton</option>
+                    <option value="Guerlain">Guerlain</option>
+                </select>
+            </div>
+            <div class="nav_store nav_child">
+                <h1>2</h1>
+                <select class="btn_drop navStore_btn" name="" id="markets" onchange="storeChangeImage(this.value)">
+                    <option selected="true" disabled="disabled">Magasin</option>
+                </select>
+            </div>
+            <div class=" nav_connect nav_child">
+                <h1>3</h1>
+                <a href="/HTML/indexPOS.html" class="btn_nodrop navCo_btn">
+                    <p class="se_connect">Se connecter</p>
+                </a>
+            </div>
+        </div>
+        <div class="mockup">
+            <div class="mock_circle image">
+                <img src="/images/connect/circle.png" id="store_image" alt="">
+            </div>
+            <div class="mock_screen image" id="brand_image">
+                <img id="myImage" src="/images/connect/screen.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="backgroundBottom">
+        <img src="/images/connect/background.png" alt="">
+    </section>
+    <script src="/javascript/appConnect.js"></script>
+</body>
+
+</html>

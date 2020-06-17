@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/stylePOS.css">
+    <title>POS - Ticketless Demo</title>
+</head>
+<!-- loading the body into a function -->
+
+<body onload="myFunction()">
+    <section class="header" id="header-brand-id">
+        <!-- <img class="headerLogo positioning" id="header-brand-id" src="/images/pos/pcdLogo.png" alt=""> -->
+    </section>
+
+    <section class="center">
+        <div class="navBar">
+            <!-- getting the date using date id -->
+            <div class="nav_time btn_nodrop" id="date">
+
+            </div>
+            <div class="nav_products">
+                <!-- dynamically getting the products -->
+                <select class="btn_drop" name=""id="productId" onchange="getProduct(this.value)">
+                    <option selected="true" disabled="disabled">Produits</option>
+                    <!-- <option disabled='disabled' id="disable"></option> -->
+                </select>
+            </div>
+            <a href="/HTML/indexClientScreen.html" class="nav_pay btn_nodrop" id="payButton" onclick="postData()">
+                <p>PAYER</p>
+            </a>
+        </div>
+        <div class="receipt">
+            <!-- <img src="/images/pos/receiptBody.png" alt=""> -->
+            <div class="receiptContent">
+                <div class="receiptTop">
+                    <div class="storeInfos">
+                        <div class="brandLogo" id="brand-id">
+                            <!-- <img src="/images/pos/pcdReceiptLogo.png" alt=""> -->
+                        </div>
+                        <div class="brandLocation">
+                            <p class="brandLoc_address" id="street"></p>
+                            <p class="brandLoc_phone" id="phone"></p>
+                            <p class="brandLoc_hours" id="openingHours"></P>
+                        </div>
+                        <div class="editionInfos">
+
+                            <p id="receiptDate"></p>
+                            <p>Client: Demo Ticketless</p>
+                            <p id="seller">Vendeur: </p>
+                        </div>
+                    </div>
+                    <div class="dash">
+                        <img src="/images/pos/dash.png" alt="">
+                    </div>
+                    <!-- getting the basket data -->
+
+
+                    <div class="basket" id="basket-id">
+                        <!-- <div class="basket">
+                            <div class="basket_product" id="product1">
+                                <div class="productRef">
+                                    <div class="refNumber" id="refNumber"></div>
+                                    <div class="refName" id="refName"></div>
+                                </div>
+                                <div class="productText">
+                                    <div class="textPU">PU Brut</div>
+                                    <div class="textQtty">Qte</div>
+                                </div>
+                                <div class="productPrice">
+                                    <div class="pricePU" id="pricePU"></div>
+                                    <div class="priceQtty"></div>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="receiptBottom">
+                    <div class="dash">
+                        <img src="/images/pos/dash.png" alt="">
+                    </div>
+                    <div class="total">
+                        <div class="totalTitle">
+                            <div class="totTitle_net">Total Net :</div>
+                            <div class="totTitle_TVA">dont TVA :</div>
+                        </div>
+                        <div class="totalAmount">
+                            <div class="totAm_net"><span id="total-net"></span></div>
+                            <div class="totAm_TVA"><span id="total-tva"></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="/javascript/appPOS.js"></script>
+</body>
+
+</html>

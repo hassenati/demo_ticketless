@@ -1,0 +1,403 @@
+{
+  "class": "all the information stored",
+  "date": "May 18 2020",
+  "Brands": [
+    {
+      "brand": "Parfums Christian Dior",
+      "stores": [
+        {
+          "name": "Magasin",
+          "image": "",
+          "address": []
+        },
+        {
+          "name": "PCD Paris Vendôme",
+          "image": "https://nsm09.casimages.com/img/2020/06/15//20061512261625480916854405.png",
+          "address": [
+            {
+              "street": "326 r St Honoré, 75001 Paris",
+              "phone": "01 40 20 99 56",
+              "openingHours": "11h-19h30 du Lundi au Samedi"
+            }
+          ]
+        },
+        {
+          "name": "PCD Paris Montaigne",
+          "image": "https://nsm09.casimages.com/img/2020/06/15//20061512261525480916854404.png",
+          "address": [
+            {
+              "street": "30 Avenue Montaigne, 75008 Paris",
+              "phone": "01 45 63 12 51",
+              "openingHours": "10h-20h du Lundi au Samedi"
+            }
+          ]
+        },
+        {
+          "name": "PCD Paris Champs-Élysées",
+          "image": "https://nsm09.casimages.com/img/2020/06/15//20061512261425480916854402.png",
+          "address": [
+            {
+              "street": "52 Av. des Champs-Élysées, 75008 Paris",
+              "phone": "01 42 89 57 96",
+              "openingHours": "10h30-21h du Lundi au Samedi"
+            }
+          ]
+        }
+      ],
+      "product": [
+        { "productName": "Products" },
+        {
+          "productName": "L'etoile Mitzah 100ml",
+          "items": [
+            {
+              "itemID": "C099600187",
+              "itemName": "MCD MITZAH L ETOILE",
+              "qty": 1,
+              "itemPrice": 190.00
+            }
+          ]
+        },
+        {
+          "productName": "Gris Dior 100mL",
+          "items": [
+            {
+              "itemID": "C099600066",
+              "itemName": "MCD GRIS DIOR",
+              "qty": 1,
+              "itemPrice": 198.00
+            }
+          ]
+        },
+        {
+          "productName": "J’adore 50mL",
+          "items": [
+            {
+              "itemID": "C099600134",
+              "itemName": "MCD J ADORE",
+              "qty": 1,
+              "itemPrice": 90.00
+            }
+          ]
+        },
+        {
+          "productName": "Spice Blend 450mL",
+          "items": [
+            {
+              "itemID": "C099600087",
+              "itemName": "MCD SPICE BLEND",
+              "qty": 1,
+              "itemPrice": 395.00
+            }
+          ]
+        },
+        {
+          "productName": "Coffret Découverte",
+          "items": [
+            {
+              "itemID": "C099600325",
+              "itemName": "MCD COFFRET DECOUVERTE",
+              "qty": 1,
+              "itemPrice": 160.00
+            }
+          ]
+        }
+      ],
+      "image": "https://nsm09.casimages.com/img/2020/06/09//20060905243025480916842555.png"
+    },
+
+    {
+      "brand": "Acqua Di Parma",
+      "stores": [
+        {
+          "name": "Magasin",
+          "image": ""
+        },
+        {
+          "name": "ADP Paris Francs Bourgeois",
+          "image": "https://nsm09.casimages.com/img/2020/06/15//20061512261425480916854403.png",
+          "address": [
+            {
+              "street": "6 Rue des Francs Bourgeois, 75003 Paris",
+              "phone": "01 42 74 87 08",
+              "openingHours": "11h-19h du Lundi au Samedi"
+            }
+          ]
+        },
+        {
+          "name": "ADP Paris Le Bon Marché",
+          "image": "https://nsm09.casimages.com/img/2020/06/15//20061512262025480916854411.png",
+          "address": [
+            {
+              "street": "24 Rue de Sèvres LE BON MARCHÉ, 75007 Paris",
+              "phone": "01 44 39 80 00",
+              "openingHours": "11h-19h du Lundi au Samedi"
+            }
+          ]
+        }
+      ],
+      "product": [
+        { "productName": "Products" },
+        {
+          "productName": "Chinotto Di Liguria 30mL",
+          "items": [
+            {
+              "itemID": "A099600087",
+              "itemName": "ADP CHINOTTO DI LIGURIA 30",
+              "qty": 1,
+              "itemPrice": 56.00
+            }
+          ]
+        },
+        {
+          "productName": "Colonia Flacon Splash",
+          "items": [
+            {
+              "itemID": "A0996000138",
+              "itemName": "ADP COLONIA FLACON",
+              "qty": 1,
+              "itemPrice": 155.00
+            }
+          ]
+        },
+        {
+          "productName": "Colonia 20mL",
+          "items": [
+            {
+              "itemID": "A099600027",
+              "itemName": "ADP COLONIA 20",
+              "qty": 1,
+              "itemPrice": 58.00
+            }
+          ]
+        },
+        {
+          "productName": "Oud 20mL",
+          "items": [
+            {
+              "itemID": "A099600148",
+              "itemName": "ADP OUD 20",
+              "qty": 1,
+              "itemPrice": 89.00
+            }
+          ]
+        },
+        {
+          "productName": "Rosa Nobile 20mL",
+          "items": [
+            {
+              "itemID": "A099600023",
+              "itemName": "ADP ROSA NOBILE 20",
+              "qty": 1,
+              "itemPrice": 65.00
+            }
+          ]
+        }
+      ],
+      "image": "https://nsm09.casimages.com/img/2020/06/09//20060905283625480916842556.png"
+    },
+    {
+      "brand": "Louis Vuitton",
+      "stores": [
+        {
+          "name": "Magasin",
+          "image": ""
+        },
+        {
+          "name": "LV Paris Champs-Élysées",
+          "image": "https://nsm09.casimages.com/img/2020/06/15//20061512261925480916854409.png",
+          "address": [
+            {
+              "street": "101 Av. des Champs-Élysées, 75008 Paris",
+              "phone": "09 77 40 40 77",
+              "openingHours": "10h-19h du Lundi au Samedi"
+            }
+          ]
+        },
+        {
+          "name": "LV Paris Montaigne",
+          "image": "https://nsm09.casimages.com/img/2020/06/15//20061512261925480916854410.png",
+          "address": [
+            {
+              "street": "22 Avenue Montaigne, 75008 Paris",
+              "phone": "09 77 40 40 77",
+              "openingHours": "11h-19h du Lundi au Samedi"
+            }
+          ]
+        },
+        {
+          "name": "LV Paris Vendôme",
+          "image": "https://nsm09.casimages.com/img/2020/06/15//20061512262025480916854412.png",
+          "address": [
+            {
+              "street": "2 Place Vendôme, 75001 Paris",
+              "phone": "09 77 40 40 77",
+              "openingHours": "10h-19h du Lundi au Samedi"
+            }
+          ]
+        }
+      ],
+      "product": [
+        { "productName": "Products" },
+        {
+          "productName": "Sac Ceinture Discovery",
+          "items": [
+            {
+              "itemID": "L099600087",
+              "itemName": "LV SAC CEINTURE DISCOVERY",
+              "qty": 1,
+              "itemPrice": 1590.00
+            }
+          ]
+        },
+        {
+          "productName": "Sneaker LV Archlight",
+          "items": [
+            {
+              "itemID": "L0996000138",
+              "itemName": "LV SNEAKER ARCHLIGHT BLANC 38",
+              "qty": 1,
+              "itemPrice": 850.00
+            }
+          ]
+        },
+        {
+          "productName": "Sac LV Pont 9",
+          "items": [
+            {
+              "itemID": "L099600009",
+              "itemName": "LV SAC PONT 9",
+              "qty": 1,
+              "itemPrice": 2870.00
+            }
+          ]
+        },
+        {
+          "productName": "Bracelet L TO V",
+          "items": [
+            {
+              "itemID": "L099600148",
+              "itemName": "BRACELET L TO V",
+              "qty": 1,
+              "itemPrice": 325.00
+            }
+          ]
+        },
+        {
+          "productName": "Lunettes de Soleil Grease",
+          "items": [
+            {
+              "itemID": "L099600023",
+              "itemName": "LV LUNETTES GREASE",
+              "qty": 1,
+              "itemPrice": 550.00
+            }
+          ]
+        }
+      ],
+
+      "image": "https://nsm09.casimages.com/img/2020/06/09//20060905302825480916842557.png"
+    },
+    {
+      "brand": "Guerlain",
+      "stores": [
+        {
+          "name": "Magasin",
+          "image": ""
+        },
+        {
+          "name": "Guerlain Paris Haussmann",
+          "image": "https://nsm09.casimages.com/img/2020/06/15//20061512261725480916854407.png",
+          "address": [
+            {
+              "street": "40 Boulevard Haussmann GALERIES LAFAYETTE, 75009 Paris",
+              "phone": "01 53 20 18 29",
+              "openingHours": "10h-19h du Lundi au Samedi"
+            }
+          ]
+        },
+        {
+          "name": "Guerlain Paris Champs-Élysées",
+          "image": "https://nsm09.casimages.com/img/2020/06/15//20061512261625480916854406.png",
+          "address": [
+            {
+              "street": "68 Av. des Champs-Élysées, 75008 Paris",
+              "phone": "01 45 62 52 57",
+              "openingHours": "10h-19h du Lundi au Samedi"
+            }
+          ]
+        },
+        {
+          "name": "Guerlain Paris Vendôme",
+          "image": "https://nsm09.casimages.com/img/2020/06/15//20061512261825480916854408.png",
+          "address": [
+            {
+              "street": "356 Rue Saint-Honoré, 75001 Paris",
+              "phone": "01 42 60 68 61",
+              "openingHours": "11h-19h du Lundi au Samedi"
+            }
+          ]
+        }
+      ],
+      "product": [
+        { "productName": "Products" },
+        {
+          "productName": "L'Homme Idéal Coffret",
+          "items": [
+            {
+              "itemID": "G099600087",
+              "itemName": "GUERLAIN L HOMME IDEAL COFFRET",
+              "qty": 1,
+              "itemPrice": 109.00
+            }
+          ]
+        },
+        {
+          "productName": "Habit Rouge Coffret",
+          "items": [
+            {
+              "itemID": "G0996000138",
+              "itemName": "GUERLAIN L HOMME IDEAL COFFRET",
+              "qty": 1,
+              "itemPrice": 97.00
+            }
+          ]
+        },
+        {
+          "productName": "Acqua Allegoria Orange Soleia 125mL",
+          "items": [
+            {
+              "itemID": "G099600009",
+              "itemName": "GUERLAIN ACQUA ALLEGORIA ORANGE SOLEIA 125",
+              "qty": 1,
+              "itemPrice": 103.00
+            }
+          ]
+        },
+        {
+          "productName": "Eau de Guerlain 500mL",
+          "items": [
+            {
+              "itemID": "G099600148",
+              "itemName": "GUERLAIN LES EAUX GUERLAIN 500",
+              "qty": 1,
+              "itemPrice": 295.00
+            }
+          ]
+        },
+        {
+          "productName": "Eau de Cologne Impériale",
+          "items": [
+            {
+              "itemID": "G099600023",
+              "itemName": "GUERLAIN LES EAUX IMERIALE 500",
+              "qty": 1,
+              "itemPrice": 465.00
+            }
+          ]
+        }
+      ],
+
+      "image": "https://nsm09.casimages.com/img/2020/06/09//20060905325525480916842558.png"
+    }
+  ]
+}

@@ -1,0 +1,298 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+p,
+b {
+  font-size: 1.6rem;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  /* overflow: hidden; */
+  overflow: hidden;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 6em;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("/images/pos/pcdBackground.jpg");
+  background-position: center;
+  filter: brightness(25%);
+}
+
+/*HEADER*/
+
+.header {
+  background: url(/images/pos/waveHeader.png) center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 20em;
+  align-content: center;
+  position: relative;
+  background-position: center;
+}
+
+.header img {
+  width: 30em;
+  height: auto;
+  margin-top: 1em;
+  align-content: center;
+  position: absolute;
+  align-content: center;
+  top: -12em;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+/* .positioning {
+  position: absolute;
+  align-content: center;
+  top: 1em;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+} */
+
+/* CENTER */
+
+.center {
+  width: 100%;
+  height: 35em;
+  background-size: cover;
+  position: relative;
+  display: inline-flex;
+  flex-direction: row;
+  font-weight: 500;
+  top: -5em;
+}
+
+.center::before {
+  content: "";
+  position: absolute;
+}
+
+.navBar {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: absolute;
+  height: 100%;
+  width: 40em;
+  margin-left: 15%;
+}
+
+.btn_drop {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 55px;
+  width: 25em;
+  background: #f7f7f7;
+  border: 1px solid #b18f63;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  z-index: 200;
+  text-align-last: center;
+  font-family: Work Sans, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2em;
+  line-height: 1em;
+}
+
+.btn_nodrop {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 97px;
+  width: 25em;
+  background: #f7f7f7;
+  border: 1px solid #b18f63;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  text-align: center;
+  font-family: Work Sans, sans-serif;
+  font-style: bold;
+  font-weight: 500;
+  font-size: 1.2em;
+  line-height: 1em;
+}
+
+.btn_nodrop p {
+  color: #000000;
+  font-style: bold;
+  font-weight: 500;
+  font-size: 1.5em;
+  line-height: 1em;
+}
+
+/*RECEIPT*/
+
+.receipt {
+  background: url(/images/pos/receiptBody.png);
+  position: absolute;
+  align-content: right;
+  height: 120%;
+  width: 35em;
+  right: 10%;
+  top: -10%;
+  align-items: center;
+}
+
+.receiptContent {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 1.5em;
+  height: 540px;
+}
+
+.receiptTop {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.receiptTop .brandLogo {
+  margin-bottom: 0.7em;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 248px;
+}
+
+.receiptTop .brandLocation {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin-bottom: 0.5em;
+  font-weight: 500;
+}
+
+.receiptTop .storeInfos p {
+  font-size: 0.9em;
+  line-height: 1.3;
+}
+
+.receiptTop .editionInfos {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-weight: 500;
+}
+
+/*basket*/
+
+.basket {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  font-size: 0.9em;
+  line-height: 1.3;
+  margin: 0.5em 0;
+  max-height: 200px;
+}
+
+.basket_product {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0.4em 0;
+}
+
+.productRef {
+  width: 60%;
+  text-align: left;
+}
+
+.productText {
+  width: 20%;
+  text-align: right;
+}
+
+.productPrice {
+  width: 20%;
+  text-align: right;
+}
+
+/*total*/
+
+.receiptBottom {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.total {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 0.9em;
+  line-height: 1.3;
+  margin: 0.5em 0;
+  font-size: 1.4em;
+  line-height: 1.4;
+  margin: 0.7em 0;
+  font-weight: bold;
+}
+
+.totalTitle {
+  width: 50%;
+  text-align: left;
+}
+
+.totalAmount {
+  width: 50%;
+  text-align: right;
+}
+
+.list {
+  text-decoration: none;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr 1fr;
+  justify-content: space-between;
+  width: 100%;
+  grid-gap: 30px;
+  padding: 5px 0;
+}
+
+.inputStyle {
+  width: 50px;
+}

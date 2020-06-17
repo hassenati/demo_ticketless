@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Screen - Ticketless Demo</title>
+    <link rel="stylesheet" href="/CSS/styleClientScreen.css">
+</head>
+<body onload="getData()">
+    <section class="header" id="brandLogo">
+        <!-- <img class="headerLogo positioning" src="/images/pos/pcdLogo.png" alt=""> -->
+    </section>
+
+    <section class="thank">
+        <div class="thxMsg">
+            <h1>Merci pour votre visite</h1>
+        </div>
+        <div class="thxAmount" id="payAmount"></div>
+    </section>
+
+    <section class="scan">
+        <div class="flexContainer">
+            <div class="scanImg">
+                <img src="/images/clientScreen/plantTreePhone.png" alt="">
+            </div>
+            <div class="scanText">
+                <h1>Scannez moi</h1>
+                <h3>et participez à planter des arbres</h3>
+                <p>Notre objectif actuel : 2 Millions d'arbres en Amazonie d'ici 2021</p>
+            </div>
+            <div class="scanQR">
+                <div class="anglesTop sqr_child">
+                    <img class="angle anglesLeft" src="/images/clientScreen/angleTopLeft.png" alt="">
+                    <img class="angle anglesRight" src="/images/clientScreen/angleTopRight.png" alt="">
+                </div>
+                <div class="qrCode sqr_child">
+                    <img src="/images/clientScreen/testQRCode.png" alt="">
+                </div>
+                <div class="anglesBottom sqr_child">
+                    <img class="angle anglesLeft"  src="/images/clientScreen/angleBottomLeft.png" alt="">
+                    <img class="angle anglesRight" src="/images/clientScreen/angleBottomRight.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="footer">
+        <div class="motionDesign" id="videoWithJS">
+            <!-- <video src="/images/clientScreen/motionDesign.mp4" type="video.mp4" autoplay loop muted>Your browser does not support the video tag</video> -->
+            <img src="/images/clientScreen/motionDesignImg.png" alt="">
+        </div>
+        <div class="seeYou">
+            <h1>À bientôt chez Parfums Christian Dior</h1>
+        </div>
+    </section>
+    <script src="/javascript/appClientScreen.js"></script>
+</body>
+</html>
