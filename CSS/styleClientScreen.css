@@ -240,3 +240,16 @@ body{
     /* position: relative;
     top: -11em; */
 }
+
+
+
+/*Media Queries*/
+
+@media screen and (max-width: 1700px) {
+    .header img {width: 20em; height: auto;}
+    .thank {top: -13em}
+    .scan {top: -12em;}
+    .scanText p {font-size: 0.8em;}
+    .footer {top: -8em;}
+    .seeYou {position: relative; top: -7em;}
+}

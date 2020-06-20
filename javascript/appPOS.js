@@ -218,9 +218,12 @@ function changeQty (newQty, element) {
   element.setAttribute("value", newQty);  //we set the value of the input box at the new quantity selected (so that when we select another item, the values remains the same)
   let formerTotalElement = parseInt(totalNet.textContent);
   let newTotalElement = formerTotalElement;
+  console.log(productsList);
+  console.log(tempProduct, tempProductQuantity);
 
   // Loops to update the total, and the quantity of the product
   retrievedObject.forEach((getItems) => {
+    console.log(getItems);
     getItems.product.forEach((item) => {
       if (tempProduct.includes(String(item.productName)) && (item.productName!="Products")) {
         if (element.id == "inputBox_"+item.items[0].itemID) {
@@ -242,15 +245,68 @@ function changeQty (newQty, element) {
 
 
 
-// Fonction that POSTs the necessary variables
+// Function that POSTs the necessary variables --> local + in /receipt.json
+var fs = require('fs');
 function postData() {
+  
+  //push of the information locally : first step, but to erase finally
   let brandLogo = document.getElementById("brand-id");
   brandLogo.setAttribute("class", "headerLogo positioning");
-
   localStorage.setItem("brandLogo", JSON.stringify(brandLogo.innerHTML));
   localStorage.setItem("totalAmount", JSON.stringify(totalNet.innerHTML));
 
+  //push to receipt.json with node.js
+  let listOfProducts = [];  //will contain the data of the products we bought
+  retrievedObject.forEach((getItems) => {
+    getItems.product.forEach((item) => {
+      if (tempProduct.includes(String(item.productName)) && (item.productName!="Products")){
+        item.items.forEach((itemDetails) => {
+          if (checkRepetition.includes(itemDetails.itemName)) {
+            let newProduct = item;
+            let tempProductIndex = tempProduct.indexOf(String(item.productName));
+            newProduct.productQty = String(tempProductQuantity[tempProductIndex]);
+            listOfProducts.push(newProduct);
+           }
+        });
+    }})});
 
+  // The json that we will push on click of the "Pay" button
+  const  receipt = {
+    "storeInfo": [
+      {
+          "brand": JSON.parse(localStorage.getItem("brand")),
+          "store": JSON.parse(localStorage.getItem("storeName")),
+          "address": document.getElementById("street").innerHTML,
+          "phoneNumber": document.getElementById("phone").innerHTML,
+          "openingHours": document.getElementById("openingHours").innerHTML
+      }
+  ],
+  "purchaseInfo": [
+      {
+          "time": document.getElementById("receiptDate").innerHTML,
+          "products": listOfProducts,
+          "payment": [
+              {
+                  "netTotal": totalNet.innerHTML,
+                  "tva": totalTVA.innerHTML
+              }
+          ]
+      }
+  ]
+  }
+
+  // Creates a .json file called "newReceipt", with all the info
+  fs.writeFile('./newReceipt.json', JSON.stringify(receipt, null, 2), err => {
+    if (err) {
+      console.log(err);
+    } else {
+      console.log('File successfully written!');
+    }
+  });
+
+
+
+  //TESTS NON CONCLUANTS:
   // var transfer = {
   //   brandName : brandName.innerHTML,
   //   totalAmount : totalNet.innerHTML

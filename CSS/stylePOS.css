@@ -30,7 +30,6 @@ img {
 
 body {
   /* overflow: hidden; */
-  overflow: hidden;
   position: relative;
 }
 
@@ -43,6 +42,7 @@ body::before {
   height: 100%;
   background: url("/images/pos/pcdBackground.jpg");
   background-position: center;
+  background-size: cover;
   filter: brightness(25%);
 }
 
@@ -295,4 +295,91 @@ body::before {
 
 .inputStyle {
   width: 50px;
+}
+
+
+
+/*Reponsive*/
+
+/* @media only screen and (max-width: 600px) {
+  .body::before {background-size: cover;}
+  .header {top: -2em;}
+  .center {flex-direction: column;}
+  .receipt {top: 25em; width: 90%;}
+} */
+
+/*PREMIER TEST DE RESPONSIVENESS*/
+/* @media only screen and (max-width: 1400px) {
+  .body::before {background-size: cover; text-align: center;}
+  .center {width: 100%; flex-direction: column; align-items: center;}
+  .header {top: -1em;}
+  .header img {top: -10em;}
+  .navBar {height: 20em; width: 40%; right: 30%; top: -6em; align-content: center;}
+  .btn_nodrop {height: 70px;}
+  .body {overflow: scroll;}
+  .receipt {top: 15em; position: relative; left: 0;}
+}
+
+@media only screen and (max-width: 1200px) {
+  .navBar {height: 20em; width: 20%; right: 40%; top: -6em; align-items: center;}
+  .receipt {top: 15em; width: 35em; position: relative; left: 0;}
+}
+
+@media only screen and (max-width: 900px) {
+  .navBar {height: 20em; width: 20%; right: 40%; top: -6em; align-content: center;}
+  .btn {width: 20em; align-items: center;}
+  .receipt {top: 15em; width: 30em; position: relative; left: 0;}
+}
+
+@media only screen and (max-width: 600px) {
+  .navBar {height: 20em; width: 20%; right: 40%; top: -6em; align-content: center;}
+  .btn {width: 20em; align-items: center;}
+  .receipt {top: 15em; width: 30em; position: relative; left: 0;}
+} */
+
+
+/*DEUXIEME ECRITURE DE RESPONSIVENESS*/
+@media screen and (max-width: 600px) {
+  .body {background-color: black; background-size: cover; overflow-y: visible;}
+  .header {top: -4em;}
+  .header img {top: -5em;}
+  .center {display: inline-flex; flex-direction: column; width: 100%; align-items: center; justify-content: flex-start; text-align: center; top: -12em;  background-size: cover;}
+  .navBar {height: 20em; width: 5em; margin: 0em; left: 5em;}
+  .btn {width: 12em; height: 60px;}
+  .receipt {position: relative; height: 100%; width: 25em; left: 0; top: 22em;}
+}
+
+@media screen and (min-width: 600px) {
+  .body {background-image: none; background-size: cover; overflow-y: visible;}
+  .header {top: -3em;}
+  .header img {top: -6em;}
+  .center {display: inline-flex; flex-direction: row; width: 100%; align-items: center; justify-content: flex-start; text-align: center; top: -20em; background-size: cover;}
+  .navBar {height: 20em; width: 5em; margin: 0em; left: 1em; top: 15em;}
+  .btn {width: 12em; height: 60px;}
+  .receipt {position: relative; height: 100%; width: 25em; left: 40%; top: 10em;}
+}
+
+@media screen and (min-width: 900px) {
+  .header {top: 0em;}
+  .header img {top: -12em;}
+  .center {width: 100%; height: 35em; background-size: cover; position: relative; top: -5em;}
+  .navBar {position: absolute; height: 35em; width: 20em; left: 3.5%; align-items: center; justify-content: space-evenly; top: 0em;}
+  .btn {width: 15em; height: 60px;}
+  .receipt {position: absolute; align-content: right; height: 100%; width: 30em; top: -10%;}
+}
+
+@media screen and (min-width: 1250px) {
+  .center {width: 100%; height: 35em; background-size: cover; position: relative; top: -5em; display: inline-flex; flex-direction: row; justify-content: space-evenly;}
+  .navBar {position: absolute; display: inline-flex; flex-direction: column; width: 40em; height: 100%; margin-left: 5em; left: 0%;}
+  .btn_drop {width: 25em; height: 55px;}
+  .btn_nodrop {width: 25em; height: 97px;}
+  .receipt {position: absolute; align-content: right; height: 120%; width: 35em; right: 10%; top: -8%; margin-left: 15em;}
+}
+
+@media screen and (orientation: landscape) {
+  .body {overflow-y: visible;}
+}
+
+@media screen and (min-width: 1250px) and (min-height: 730px) {
+  .body {overflow: hidden;}
 }

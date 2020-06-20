@@ -17,17 +17,17 @@
     <section class="center">
         <div class="navBar">
             <!-- getting the date using date id -->
-            <div class="nav_time btn_nodrop" id="date">
+            <div class="nav_time btn_nodrop btn" id="date">
 
             </div>
             <div class="nav_products">
                 <!-- dynamically getting the products -->
-                <select class="btn_drop" name=""id="productId" onchange="getProduct(this.value)">
+                <select class="btn_drop btn" name=""id="productId" onchange="getProduct(this.value)">
                     <option selected="true" disabled="disabled">Produits</option>
                     <!-- <option disabled='disabled' id="disable"></option> -->
                 </select>
             </div>
-            <a href="/HTML/indexClientScreen.html" class="nav_pay btn_nodrop" id="payButton" onclick="postData()">
+            <a href="/HTML/indexClientScreen.html" class="nav_pay btn_nodrop btn" id="payButton"  onclick="postData()">
                 <p>PAYER</p>
             </a>
         </div>

@@ -52,8 +52,8 @@
             {
               "itemID": "C099600187",
               "itemName": "MCD MITZAH L ETOILE",
-              "qty": 1,
-              "itemPrice": 190.00
+              "itemPrice": 190.00,
+              "qty": 1
             }
           ]
         },
@@ -63,8 +63,8 @@
             {
               "itemID": "C099600066",
               "itemName": "MCD GRIS DIOR",
-              "qty": 1,
-              "itemPrice": 198.00
+              "itemPrice": 198.00,
+              "qty": 1
             }
           ]
         },
@@ -74,8 +74,8 @@
             {
               "itemID": "C099600134",
               "itemName": "MCD J ADORE",
-              "qty": 1,
-              "itemPrice": 90.00
+              "itemPrice": 90.00,
+              "qty": 1
             }
           ]
         },
@@ -85,8 +85,8 @@
             {
               "itemID": "C099600087",
               "itemName": "MCD SPICE BLEND",
-              "qty": 1,
-              "itemPrice": 395.00
+              "itemPrice": 395.00,
+              "qty": 1
             }
           ]
         },
@@ -96,8 +96,8 @@
             {
               "itemID": "C099600325",
               "itemName": "MCD COFFRET DECOUVERTE",
-              "qty": 1,
-              "itemPrice": 160.00
+              "itemPrice": 160.00,
+              "qty": 1
             }
           ]
         }
@@ -143,8 +143,8 @@
             {
               "itemID": "A099600087",
               "itemName": "ADP CHINOTTO DI LIGURIA 30",
-              "qty": 1,
-              "itemPrice": 56.00
+              "itemPrice": 56.00,
+              "qty": 1
             }
           ]
         },
@@ -154,8 +154,8 @@
             {
               "itemID": "A0996000138",
               "itemName": "ADP COLONIA FLACON",
-              "qty": 1,
-              "itemPrice": 155.00
+              "itemPrice": 155.00,
+              "qty": 1
             }
           ]
         },
@@ -165,8 +165,8 @@
             {
               "itemID": "A099600027",
               "itemName": "ADP COLONIA 20",
-              "qty": 1,
-              "itemPrice": 58.00
+              "itemPrice": 58.00,
+              "qty": 1
             }
           ]
         },
@@ -176,8 +176,8 @@
             {
               "itemID": "A099600148",
               "itemName": "ADP OUD 20",
-              "qty": 1,
-              "itemPrice": 89.00
+              "itemPrice": 89.00,
+              "qty": 1
             }
           ]
         },
@@ -187,8 +187,8 @@
             {
               "itemID": "A099600023",
               "itemName": "ADP ROSA NOBILE 20",
-              "qty": 1,
-              "itemPrice": 65.00
+              "itemPrice": 65.00,
+              "qty": 1
             }
           ]
         }
@@ -244,8 +244,8 @@
             {
               "itemID": "L099600087",
               "itemName": "LV SAC CEINTURE DISCOVERY",
-              "qty": 1,
-              "itemPrice": 1590.00
+              "itemPrice": 1590.00,
+              "qty": 1
             }
           ]
         },
@@ -255,8 +255,8 @@
             {
               "itemID": "L0996000138",
               "itemName": "LV SNEAKER ARCHLIGHT BLANC 38",
-              "qty": 1,
-              "itemPrice": 850.00
+              "itemPrice": 850.00,
+              "qty": 1
             }
           ]
         },
@@ -266,8 +266,8 @@
             {
               "itemID": "L099600009",
               "itemName": "LV SAC PONT 9",
-              "qty": 1,
-              "itemPrice": 2870.00
+              "itemPrice": 2870.00,
+              "qty": 1
             }
           ]
         },
@@ -277,8 +277,8 @@
             {
               "itemID": "L099600148",
               "itemName": "BRACELET L TO V",
-              "qty": 1,
-              "itemPrice": 325.00
+              "itemPrice": 325.00,
+              "qty": 1
             }
           ]
         },
@@ -288,8 +288,8 @@
             {
               "itemID": "L099600023",
               "itemName": "LV LUNETTES GREASE",
-              "qty": 1,
-              "itemPrice": 550.00
+              "itemPrice": 550.00,
+              "qty": 1
             }
           ]
         }
@@ -346,8 +346,8 @@
             {
               "itemID": "G099600087",
               "itemName": "GUERLAIN L HOMME IDEAL COFFRET",
-              "qty": 1,
-              "itemPrice": 109.00
+              "itemPrice": 109.00,
+              "qty": 1
             }
           ]
         },
@@ -357,8 +357,8 @@
             {
               "itemID": "G0996000138",
               "itemName": "GUERLAIN L HOMME IDEAL COFFRET",
-              "qty": 1,
-              "itemPrice": 97.00
+              "itemPrice": 97.00,
+              "qty": 1
             }
           ]
         },
@@ -368,8 +368,8 @@
             {
               "itemID": "G099600009",
               "itemName": "GUERLAIN ACQUA ALLEGORIA ORANGE SOLEIA 125",
-              "qty": 1,
-              "itemPrice": 103.00
+              "itemPrice": 103.00,
+              "qty": 1
             }
           ]
         },
@@ -379,8 +379,8 @@
             {
               "itemID": "G099600148",
               "itemName": "GUERLAIN LES EAUX GUERLAIN 500",
-              "qty": 1,
-              "itemPrice": 295.00
+              "itemPrice": 295.00,
+              "qty": 1
             }
           ]
         },
@@ -390,8 +390,8 @@
             {
               "itemID": "G099600023",
               "itemName": "GUERLAIN LES EAUX IMERIALE 500",
-              "qty": 1,
-              "itemPrice": 465.00
+              "itemPrice": 465.00,
+              "qty": 1
             }
           ]
         }
